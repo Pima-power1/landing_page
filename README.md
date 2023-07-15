@@ -1,6 +1,3 @@
-# landing_page
-# collaborators are JOE, BELLA and EULLERIA
-
 # Pima Power Landing Page
 Welcome to the Pima Power Landing Page repository! This repository contains the source code and assets for the landing page of Pima Power, an energy solutions company. The landing page serves as the primary entry point for visitors and provides information about Pima Power's services, values, and contact information.
 
