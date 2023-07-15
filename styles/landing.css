@@ -1,20 +1,64 @@
+.navbar {
+    background-color: #fff;
+    color: #8bc34a;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo img {
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-menu a {
+    color: #8bc34a;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .navbar-menu a:hover {
+    color: #aaa;
+  }
+
+.headline {
+   font-size: 40px;
+   line-height: 1.5;
+   background-color: #dcedc8;
+   margin-top: 0%;
+}
+.headline h2 {
+    margin: 0;
+}
+.headline-p {
+    font-size: 15px;
+}
 body {
     font-family: Arial, sans-serif;
+    background-color: #dcedc8;
     margin: 0;
     padding: 0;
-}
-
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
 }
 
 .container {
     max-width: 960px;
     margin: 20px auto;
     padding: 0 20px;
+    background-color: #dcedc8;
+}
+.service-h {
+    color: #212121;
+    text-align: center;
 }
 
 .section {
@@ -34,7 +78,7 @@ body {
 
 .services {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       margin-bottom: 40px;
 }
 
@@ -42,6 +86,9 @@ body {
     flex-basis: 33.33%;
     padding: 20px;
     text-align: center;
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin: 15px;
 }
 
 .service h3 {
@@ -71,7 +118,7 @@ body {
     background-color: #555;
 }
 .footer {
-    background-color: #333;
+    background-color: #8bc34a;
     color: #fff;
     padding: 20px;
     text-align: center;
