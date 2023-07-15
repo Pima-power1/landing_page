@@ -48,10 +48,10 @@ landing-page/
     │   └── ...
     └── ...
 ```
-* index.html: The main HTML file that serves as the entry point for the landing page.
-* css/: Directory containing the CSS stylesheets for the landing page.
-* js/: Directory containing JavaScript files for interactivity and functionality.
-* assets/: Directory for storing static assets such as images, icons, and fonts.
+* **index.html:** The main HTML file that serves as the entry point for the landing page.
+* **css/:** Directory containing the CSS stylesheets for the landing page.
+* **js/:** Directory containing JavaScript files for interactivity and functionality.
+* **assets/:** Directory for storing static assets such as images, icons, and fonts.
 
 Feel free to explore and modify the code to customize the landing page to your needs. The landing page uses responsive design techniques to ensure it looks great on various screen sizes.
 
