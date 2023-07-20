@@ -188,6 +188,20 @@ ul.row {
     clear: both;
 }
 
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -202,6 +216,10 @@ ul.row {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-address {
+    color: var(--text-color);
 }
 
 .footer {
