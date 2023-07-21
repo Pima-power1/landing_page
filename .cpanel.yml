@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home5/pimapowe/repositories/landing_page/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp /css/styles.css $DEPLOYPATH
+    - export DEPLOYPATH=/home5/pimapowe/public_html/landing_page/
+    - /bin/cp * $DEPLOYPATH
