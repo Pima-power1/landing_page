@@ -188,7 +188,7 @@
       ============================= */
   
   .container {
-    width: 960px;
+    width: max-width;
     margin-left: auto;
     margin-right: auto;
   }
@@ -373,7 +373,7 @@
   
   .hero-homepage {
     background-image: url(images/banner-home.jpg);
-    background-position: 75% 0;
+    background-position: 65% 8;
     background-repeat: no-repeat;
     background-size: 90rem auto;
   }
@@ -396,7 +396,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 35vh;
   }
   
   /* Section SERVICES
