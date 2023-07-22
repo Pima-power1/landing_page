@@ -11,9 +11,10 @@
 :root {
     --color-primary: #8BC34A;
     --color-black: #212121;
-    --color-white: #ffffff;
-    --color-light-grey: #f3f3f3;
+    --color-white: #FFFFFF;
+    --color-light-grey: #F3F3F3;
     --color-dark-grey: #353535;
+    --color-accent: #FFEB3B;
     --text-color: var(--color-black);
 
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
@@ -119,7 +120,7 @@ a:hover {
 }
 
 a:active {
-    background-color: var(--color-light-grey);
+    background-color: var(--color-accent);
 }
 
 .button {
