@@ -160,7 +160,14 @@
           <div class="section-body">
             <div class="row">
               <div class="col-1-2">
-                <img src="assets/images/pic-about-01.jpg" alt="about" width="460" height="500">
+                <img
+                  sizes="(max-width: 3000px) 40vw, 1200px"
+                  srcset="
+                    assets/images/pic-about-01_rtncuf_c_scale,w_380.jpg 380w,
+                    assets/images/pic-about-01_rtncuf_c_scale,w_1012.jpg 1012w,
+                    assets/images/pic-about-01_rtncuf_c_scale,w_1200.jpg 1200w"
+                  src="assets/images/pic-about-01_rtncuf_c_scale,w_1200.jpg"
+                  alt="">
               </div>
               <div class="col-1-2">
                 <!-- TODO - Replace the lorem text with company text -->
