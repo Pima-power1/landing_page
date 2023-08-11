@@ -480,10 +480,6 @@
     padding-top: 5rem;
   }
 
-  .article-page .header {
-    background-color: transparent;
-  }
-
   @media screen and (max-width: 767px) {
     .section-latest-news .row {
       flex-direction: column;
