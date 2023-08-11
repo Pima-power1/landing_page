@@ -475,6 +475,15 @@
     flex-direction: row-reverse;
   }
 
+  .article-page .section-hero {
+    margin-top: -8.5rem;
+    padding-top: 5rem;
+  }
+
+  .article-page .header {
+    background-color: transparent;
+  }
+
   @media screen and (max-width: 767px) {
     .section-latest-news .row {
       flex-direction: column;
